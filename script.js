@@ -110,6 +110,7 @@ const questions = [
 // EVENTS
 startBtn.addEventListener("click", startGame);
 nextBtn.addEventListener("click", () => {
+  nextBtn.classList.add("hide");
   clearStatusClass(controlCount);
   currentQuestion++;
   setNextQuestion();
