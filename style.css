@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background: linear-gradient(to right, #15698d, #158d5d);
   color: #ffffff;
 }
 .mobile-container {
